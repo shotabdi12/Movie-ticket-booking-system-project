@@ -2,6 +2,7 @@
 This project is about  to develop a Movie Ticket Booking System using Object-Oriented Programming (OOP) principles in Java. The system will allow users to browse movies, view available show times, select seats, and book tickets.
  
 Requirements :
+
 1.The system should allow users to view the lists of the movies playing in different theaters.
 2.Users should be able to select a movie, theater, and show timing to book tickets.
 3.Users should be able to make payments and confirm their booking tickets.
@@ -11,7 +12,11 @@ Requirements :
 Implementations :
  OOP Java Implementation
 
+ 
+
 Classes, Interfaces and Enumerations :
+
+
 1.The MovieTicketBookingSystem class is the main class that manages the movie ticket booking system.
 2.The Movie class represents a movie with properties such as ID, title, description, and duration.
 3.The Theater class represents a theater with properties such as ID, name, location, and a list of shows.
