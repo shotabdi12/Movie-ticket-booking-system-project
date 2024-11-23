@@ -1,0 +1,22 @@
+package movieticketbookingsystem;
+
+import movieticketbookingsystem.seat.*;
+
+public class Main {
+    public static void main(String[] args) {
+        // Create a new seat
+        Seat seat1 = new Seat("A1", 1, 1, SeatType.REGULAR, 10.0, SeatStatus.AVAILABLE);
+        
+        // Display seat details
+        System.out.println("Seat ID: " + seat1.getId());
+        System.out.println("Row: " + seat1.getRow());
+        System.out.println("Column: " + seat1.getColumn());
+        System.out.println("Type: " + seat1.getType());
+        System.out.println("Price: $" + seat1.getPrice());
+        System.out.println("Status: " + seat1.getStatus());
+
+        // Update seat status to BOOKED
+        seat1.setStatus(SeatStatus.BOOKED);
+        System.out.println("Updated Status: " + seat1.getStatus());
+    }
+}
