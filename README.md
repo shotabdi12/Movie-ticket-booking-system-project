@@ -17,5 +17,3 @@ MovieTicketBookingSystem/ ├── src/ │ ├── Movie.java │ ├── 
 
 
 
-
-
