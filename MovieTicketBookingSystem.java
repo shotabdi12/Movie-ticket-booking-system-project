@@ -1,4 +1,6 @@
 public class MovieTicketBookingSystem {
+    //extends the object
+
     public static void main(String[] args) {
         // Create movie and theater
         Movie movie = new Movie("Avengers", "Action", 300.0);
@@ -11,7 +13,7 @@ public class MovieTicketBookingSystem {
 
         // Payment
         OnlinePayment payment = new OnlinePayment();
-        ((Object) payment).pay(movie.getPrice());
+        ((OnlinePayment) payment).pay(movie.getPrice());
 
         // Display ticket details
         ticket.displayTicketDetails();
